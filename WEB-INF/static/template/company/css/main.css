@@ -1,0 +1,130 @@
+body {
+    background: #fff;
+    color: #333;
+    font: 12px/1.6 'Microsoft YaHei', Tahoma, Verdana, 'Simsun';
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    height: 30px;
+    background: #295283;
+    margin: 0 auto;
+}
+
+#header .container {
+    width: 990px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+}
+
+#header .container .left {
+    color: #fff;
+    float: left;
+}
+
+#header .container .right {
+    background: url(../images/msoubg.jpg) no-repeat;
+    width: 130px;
+    margin-top: 5px;
+    height: 21px;
+    padding: 0;
+    float: right;
+    margin-right: 10px;
+}
+
+#header .container .right .searchbox {
+    width: 103px;
+    float: left;
+    color: #fff;
+    background: none;
+    border: none;
+    height: 19px;
+    line-height: 22px;
+    margin-left: 2px;
+    outline: none;
+    padding-left: 2px;
+    font-family: '微软雅黑';
+}
+
+#header .container .right .searchbtn {
+    width: 22px;
+    height: 21px;
+    background: none;
+    float: left;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#nav {
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    background: url(../images/headbg.jpg) repeat-x;
+}
+
+#nav a {
+    color: #666;
+}
+
+#nav .container {
+    width: 990px;
+    margin: 0 auto;
+    height: 90px;
+}
+
+#nav .container .nav_items {
+    width: 710px;
+    float: right;
+    background: #fff;
+    height: 92px;
+    line-height: 50px;
+    border-top: 1px solid #d9d9d9;
+    position: relative;
+}
+
+#nav .container .logo {
+    float: left;
+}
+
+#nav .container .nav_items ul {
+    margin: 0 auto;
+    padding: 0;
+    height: 90px;
+}
+
+#nav .container .nav_items ul li {
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    float: left;
+}
+
+#nav .container .nav_items ul li a {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+#nav .container .nav_items ul li:hover,  #nav .container .nav_items ul .active{
+    margin-bottom: -2px;
+    border-bottom: 2px solid #134371;
+    background: #eff3f7;
+}
+
+#ad {
+    background: url(../images/ad.jpg) center center no-repeat;
+    height: 300px;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top:1px;
+}
